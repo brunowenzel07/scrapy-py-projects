@@ -7,8 +7,10 @@
 
 import scrapy
 
-class DmozItem(scrapy.Item):
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+
+class OddscheckerItem(scrapy.Item):
+    # define the fields for your item here like:
+    # number = scrapy.Field()
+    name = scrapy.Field()
+    # trainer = scrapy.Field()
     pass

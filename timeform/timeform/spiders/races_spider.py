@@ -12,7 +12,7 @@ import logging
 from timeform.items import raceItem
 from datetime import date, timedelta
 
-orig_path = '/home/benjamin/Documents/programming/scrapy/timeform/timeform/data/csv/links2014.csv'
+orig_path = '/home/benjamin/Documents/programming/scrapy/timeform/data/csv/links2014.csv'
 racexpath = '/html/body/div/div[2]/div/div[2]/div/div/div[2]'
 racextraxpath = '/html/body/div/div[2]/div/div[3]/div/div/div[2]'
 

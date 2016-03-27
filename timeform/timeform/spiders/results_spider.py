@@ -14,7 +14,7 @@ import logging
 from timeform.items import resultItem
 from datetime import date, timedelta
 
-orig_path = '/home/benjamin/Documents/programming/scrapy/timeform/timeform/data/csv/links2014.csv'
+orig_path = '/home/benjamin/Documents/programming/scrapy/timeform/data/csv/links2014.csv'
 resultxpath = '/html/body/div/div[2]/div/div[3]/div/div/div/table/tbody/tr'
 
 def translate(text, dic):

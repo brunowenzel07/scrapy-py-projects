@@ -25,6 +25,7 @@ import scrapy
 #     pass
 
 class WikiscrapeItem(scrapy.Item):
-    title = scrapy.Field()
+    ibTitle = scrapy.Field()
+    ibKey   = scrapy.Field()
     # link = scrapy.Field()
     pass
